@@ -1,0 +1,9 @@
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 20px; background:#f7fafc; }
+.container { max-width: 980px; margin: 0 auto; }
+h1 { text-align:center; margin-bottom:20px; }
+.product-grid { display:flex; gap:16px; flex-wrap:wrap; justify-content:center; }
+.card { background:white; border-radius:8px; padding:16px; width:220px; box-shadow:0 2px 6px rgba(0,0,0,0.08); text-align:center; }
+.card h3 { margin: 8px 0; }
+.price { font-weight:700; margin:12px 0; }
+button { background:#6772e5; color:white; padding:8px 12px; border:0; border-radius:6px; cursor:pointer; }
+button[disabled] { opacity:0.6; cursor:default; }
